@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+        .name{
+            margin-bottom: 10px solid white;
+        }
+        .hi,td{
+            border-collapse:collapse;
+            border: 10px solid rgb(87, 75, 53);
+        }
+       
+    </style>
+</head>
+<body>
+    <table border="1px" width="50%" height="100vh" class="hi">
+        <tr> <td colspan="2" align="center" height="50vh" bgcolor="pink">header</td> </tr>
+        <tr>
+            <td width="40%" height="200vh" align="center" bgcolor="skyblue">aside</td>
+            
+            <td align="center" bgcolor="skyblue" class="name" style="margin-bottom: 100px   ;">article <br><br><br> <br>
+
+                <table>
+                    <tr >
+                        <th width="10%" height="100vh" bgcolor="olive" align="center">image</th>
+                        <th width="10%" height="100vh" bgcolor="olive" align="center ">image</th>
+                        <th width="10%" height="100vh" bgcolor="olive" align="center">image</th>
+                        
+                    </tr>
+                </table>
+                 </td>
+            <tr>
+            <td colspan="2" align="center" height="50vh" bgcolor="pink">footer</td>
+        </tr>
+       
+
+    </table>
+</body>
+</html>
