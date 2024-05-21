@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            margin-top: 100px;
+        }
+.main{
+    background-color: burlywood;
+    width: 20%;
+    padding: 20px;
+    text-align: center;
+}
+[alt='dhoni']{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.content{
+    transform: translateY(-100px);
+}
+.contect p{
+    text-align: justify;
+}
+.main img{
+    transform: translate(-180px,-100px);
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: blueviolet;
+    margin-top: 10px;
+}
+.sec{
+    display: flex;
+}
+.border{
+    border-right: 2px solid whitesmoke;
+    padding-right: 5px;
+    margin-right: 10px;
+}
+.hire{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+</style>
+</head>
+<body>
+    <div class="main">
+            <img src="dhoni.jpg" alt="dhoni"> 
+        <div class="content">
+             <h1><i>Dhoni</i></h1>  
+             <p>Dhoni a captain of csk team and he won many awards and trophys and also a farmer and also a  the former Indian captain and wicketkeeper-batsman </p>
+             <div class="btn">
+                <button>GitHub</button>
+                <button>Twitter</button>
+                <button>LinkedIn</button>
+             </div>
+             <button class="hire">Hire Me</button>
+             <div class="footer">
+                <div class="fst">
+                <p>1.5K</p>
+                </div>
+                <div class="sec">
+                    <p class="border">Projects</p>
+                    <p>154</p>
+                </div>
+             </div>
+        </div>
+    </div>
+
+</body>
+</html>
