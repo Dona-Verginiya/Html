@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family:  Tahoma;
+        }
+       label{
+        color: aliceblue;
+        font-size: larger;
+        font-family:  Tahoma;
+       }
+       [type="text"],[type="email"],[type=password],textarea{
+        width: 25%;
+        margin-left: 10px;
+        height: 25px;
+        background-color:black;
+        border: none;
+        color: aliceblue;
+       }
+      
+       div{
+          width: 100%;
+          height: 3px;
+          background-color: #3b3b4f;
+       }
+       .sele{
+        width: 25%;
+        height: 25px;
+       }
+       textarea{
+        width: 25%;
+        margin-left: 10px;
+        height: 80px;
+        background-color:black;
+        border: none;
+       }
+       button{
+        width: 15%;
+        height: 40px;
+       }
+    </style>
+</head>
+<body bgcolor="#1b1b32">
+    <h1 style="color: aliceblue;" align="center">Registration Form</h1>
+
+    <h3 style="color: aliceblue;" align="center">Please fill out this form with the required <br> information </h3><br>
+<form action="#" align="center">
+    
+    <label>Enter Your First Name:</label><br><br>
+    <input type="text" class="id"><br><br>
+    <label>Enter Your Last Name:</label><br><br>
+    <input type="text" class="id"><br><br>
+    <label>Enter Your Email:</label><br><br>
+    <input type="email" class="id"><br><br>
+    <label>Password:</label><br><br>
+    <input type="password" class="id"><br><br><br><br>
+    <div>
+
+    </div><br><br><br>
+    
+    <label><input type="radio" name="one" > Personal Account</label><br><br>
+    <label><input type="radio" name="one" > Business Account</label><br><br>
+    <label><input type="checkbox" > I accept</label><br><br><br><br>
+    <div>
+
+    </div><br><br><br><br>
+    <label>Upload a picture:</label><br><br>
+    <input type="file" class="id" style="color: aliceblue;"><br><br>
+    <label>Input your age:</label><br><br>
+    <input type="text" class="id"><br><br>
+    <label>How did you hear about us?</label><br><br>
+    <select class="sele">
+        <option value="select One">Select One</option>
+        <option value="college">College</option>
+        <option value="School">School</option>
+        <option value="others">Others</option>
+    </select><br><br>
+<label>Feedback: <br><br>
+<textarea cols="30" rows="3" placeholder="Write Your Thought"></textarea>
+</label><br><br><br>
+
+<button>Submit</button>
+   
+</form>
+</body>
+</html>
