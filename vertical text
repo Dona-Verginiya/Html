@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+            writing-mode: vertical-lr;
+            text-orientation: upright;
+            transform: rotate(-45deg);
+        }
+    </style>
+</head>
+<body>
+    <h1 id="teq" onmouseenter="fun()" onmouseleave="fan()">t4teq</h1>
+   <script>
+    function fun(){
+    document.getElementById("teq").innerHTML="T4TEQ SOFTWARE SOLUTION";
+    document.getElementById("teq").style.color="red";
+    console.log("hiiiii")
+    }
+    function fan(){
+    document.getElementById("teq").innerHTML="T4TEQ SOFTWARE SOLUTION";
+    document.getElementById("teq").style.color="blue";
+    console.log("byeee")
+    }
+       </script>  
+</body>
+</html>
