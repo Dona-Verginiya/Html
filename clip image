@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+    h1{
+        font-size: 10vw;
+        background-image: url(./200w.gif);
+        background-clip: text;
+        color: transparent;
+    }
+   </style>
+</head>
+<body>
+    <h1 align="center" id="id">Hello Everyone</h1>
+    <!-- <button onclick="v()">Show</button>
+    <button onclick="h()">hide</button>
+    <script>
+        function v(){
+            document.getElementById("id").style.display="block";
+        }
+        function h(){
+            document.getElementById("id").style.display="none";
+        }
+    </script> -->
+</body>
+</html>
