@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+.container{
+            width: 50%;
+            display: grid;
+            grid-template-columns: auto auto auto ;
+            column-gap: 20px;
+            row-gap: 20px;
+        }
+        .header{
+            width: 100%;
+            height: 20vh;
+            background-color: aqua;
+           
+        }
+        .aside{
+            width: 100%;
+            height: 20vh;
+            background-color: aquamarine;
+            
+        }
+        .article{
+            width: 100%;
+            height:20vh;
+            background-color: antiquewhite;
+           
+            
+        }
+        .main{
+            width:100%;
+            height: 20vh;
+            background-color: brown;
+           
+        }
+        .footer{
+            width: 100%;
+            height: 20vh;
+            background-color: blueviolet;
+           
+        }
+        .content{
+            width: 100%;
+            height: 20vh;
+            background-color: yellowgreen;
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <div class="container">
+    <div class="header">
+        <h1>Header</h1>
+    </div>
+    <div class="aside">
+        <h1>Aside</h1>
+    </div>
+    <div class="article">
+        <h1>Article</h1>
+    </div>
+    <div class="main">
+        <h1>Main</h1>
+    </div>
+    <div class="content">
+        <h1>
+            Content
+        </h1>
+    </div>
+    <!-- <div class="img1">
+
+    </div>
+    <div class="img2">
+
+    </div>
+    <div class="img3">
+
+    </div> -->
+    <div class="footer">
+        <h1>Footer</h1>
+    </div>
+    </div>
+</center>
+</body>
+</html>
